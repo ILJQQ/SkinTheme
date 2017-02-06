@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: "Hiragino Sans GB";
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.head{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.nav{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.webLogo{
+    display: block;
+    float: left;
+    width: 168px;
+    height: 60px;
+    background: url("../images/richanglogo168_24.png");
+}
+
+.setHomepage{
+    display: block;
+    font-size: 12px;
+    border-radius: 2px;
+    text-align:center;
+    cursor: pointer;
+    float: left;
+    margin-top: 15px;
+    color: #fff;
+    width: 30px;
+    background-color: #34a637;
+}
+
+.weather{
+    width: 300px;
+    height: 60px;
+    display: block;
+    float: left;
+}
+iframe{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.navRight{
+    padding-top: 20px;
+}
+
+.navRight a{
+    float: right;
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #999;
+}
+
+.main{
+    /*background-color: #ccc;*/
+    width: 1000px;
+    height: 400px;
+    display: block;
+    margin: 30px auto;
+}
+
+.search{
+    width: 800px;
+    margin-left: 20px;
+    display: block;
+}
+
+.baiduIcon{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 40px;
+    background: url("../images/plus_logo.png");
+    background-size: 120px 40px;
+}
+
+.enter{
+    display: block;
+    float: left;
+    border: 1px solid #999;
+    border-right: 0;
+    outline: none;
+    text-indent: 4px;
+    font-size: 16px;
+    margin:0 0 0 12px;
+    width: 538px;
+    height: 36px;
+}
+
+.submit{
+    float: left;
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #999;
+    background-color: #f0f0f0;
+}
+
+.skinIntro{
+    display: block;
+    margin-left: 10px;
+    float: left;
+    font-size: 12px;
+}
+.setSkin{
+    display: block;
+    margin-right: 25px;
+}
+
+.setSkin button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    width: 15px;
+    height: 20px;
+    opacity: 0.7;
+    margin: 19px 0 0 10px;
+}
+
+.setSkin button:hover{
+    opacity: 1;
+}
+
+.orange{
+    background-color: #ffa500;
+}
+
+.green{
+    background-color: #34a637;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.blue{
+    background-color: #0000ff;
+}
+
+#navBar{
+    margin-top: 20px;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: #34a637;
+}
+
+#navBar a{
+    font-size: 15px;
+    color: #fff;
+    width: 9%;
+    height: 25px;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+    text-decoration: none;
+}
+
+.barItem:hover {
+    background-color: #006400;
+}
+
+.detail{
+    margin-top: 10px;
+    width: 1000px;
+    display: block;
+    float: left;
+}
+
+.leftTable{
+    width: 280px;
+    height: 200px;
+    display: inline-block;
+}
+
+.advImg{
+    width: 280px;
+    height: 72px;
+    background: url("../images/sale.png") -5px 0 no-repeat;
+    background-size: 280px 70px;
+}
+
+.starBar{
+    width: 280px;
+    height: 140px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.startbar-list a{
+    color: #000;
+    text-align: center;
+}
+
+.startbar-list a:hover{
+    color: #ff0000;
+}
+
+.split{
+    color: #ccc;
+}
+
+.category{
+    width: 120px;
+    height: 20px;
+    float: left;
+    margin-top: 4px;
+}
+
+.star-icon{
+    position: relative;
+    width: 18px;
+    height: 19px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.i-tv{
+    background: url("../images/index_menus.png") -18px -78px no-repeat;
+}
+
+.i-game{
+    background: url("../images/index_menus.png")-18px -300px no-repeat;
+}
+
+.i-movie{
+    background: url("../images/index_menus.png") -18px -160px no-repeat;
+}
+
+.i-comic{
+    background: url("../images/index_menus.png") -18px -380px no-repeat;
+}
+
+.i-toutiao{
+    background: url("../images/index_menus.png") -18px -60px no-repeat;
+}
+
+.i-travel{
+    background: url("../images/index_menus.png") -18px -260px no-repeat;
+}
+
+.i-caipiao{
+    background: url("../images/index_menus.png") -18px -20px no-repeat;
+}
+
+.i-gaoxiao{
+    background: url("../images/index_menus.png") -18px -120px no-repeat;
+}
+
+.i-tuan{
+    background: url("../images/index_menus.png") -18px -280px no-repeat;
+}
+
+.i-music{
+    background: url("../images/index_menus.png") -18px -360px no-repeat;
+}
+
+.rightTable{
+    width: 700px;
+    height: 219px;
+    float: right;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #34a637;
+}
+
+.rightTop{
+    width: 650px;
+    height: 90px;
+    margin-left: 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.rightTable li{
+    width: 16%;
+    height: 20px;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.rightTable li a{
+    font-size: 14px;
+}
+
+.rightBot{
+    width: 650px;
+    height: 129px;
+    margin-left: 30px;
+}
+
+.lastLine{
+    color: #34a637;
+}
